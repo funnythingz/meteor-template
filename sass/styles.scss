@@ -1,0 +1,23 @@
+@charset "utf-8";
+@import "compass/css3";
+
+@mixin medium {
+  font-size: 14px;
+}
+@mixin small {
+  font-size: 12px;
+}
+
+%_cassette {
+  display: block;
+}
+
+.item {
+  @extend %_cassette;
+  @include medium;
+  
+}
+.list {
+  @extend %_cassette;
+  @include small;
+}
