@@ -5,7 +5,7 @@ module.exports = (grunt)->
     concat:
       typesc:
         src: ['src/**/*.js']
-        dest: 'public/app.js'
+        dest: 'meteor/app.js'
 
       options:
         separator: ';'
