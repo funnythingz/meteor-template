@@ -3,7 +3,7 @@ module.exports = (grunt)->
     pkg: grunt.file.readJSON('package.json')
 
     concat:
-      typesc:
+      dist:
         src: ['src/**/*.js']
         dest: 'meteor/app.js'
 
